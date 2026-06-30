@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2017 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="210.2mm" height="56.2628mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 21020 5626.28"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str0 {stroke:black;stroke-width:20;stroke-miterlimit:22.9256}
+    .fil0 {fill:#1F2F36}
+   ]]>
+  </style>
+   <clipPath id="id0">
+    <rect x="10" width="21000" height="5616.28"/>
+   </clipPath>
+    <clipPath id="id1">
+     <rect transform="matrix(0.208802 -0 -0 -0.208802 9.99925 5616.28)" width="100573.76" height="26897.64"/>
+    </clipPath>
+   <mask id="id2">
+  <linearGradient id="id3" gradientUnits="userSpaceOnUse" x1="10572.45" y1="6021.69" x2="10572.45" y2="-2298.54">
+   <stop offset="0" style="stop-opacity:1; stop-color:white"/>
+   <stop offset="1" style="stop-opacity:0; stop-color:white"/>
+  </linearGradient>
+    <rect style="fill:url(#id3)" y="114.73" width="21020" height="5511.55"/>
+   </mask>
+ </defs>
+ <g id="Camada_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g style="clip-path:url(#id0)">
+   <image id="pexels-photo-27272422.jpeg" style="clip-path:url(#id1)" transform="matrix(0.208802 -0 -0 -0.208802 -1265 5616.28)" x="0" y="0" width="106680.02" height="142240.02" xlink:href="34284-MANTOO STUDIO_IDV CAPA-bd3333b2-1eb2-4e7c-8a78-15ebe9fd06b8_Images\34284-MANTOO STUDIO_IDV CAPA-bd3333b2-1eb2-4e7c-8a78-15ebe9fd06b8_ImgID1.png"/>
+  </g>
+  <polygon class="fil0 str0" style="mask:url(#id2)" points="10,124.73 21010,124.73 21010,5616.28 10,5616.28 "/>
+ </g>
+</svg>

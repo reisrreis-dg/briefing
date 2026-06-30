@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Briefing Social Media</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #0F1E4D; /* Azul Profundo */
+      color: #FFFFFF;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      position: relative;
+      width: 100%;
+      height: 250px;
+      overflow: hidden;
+    }
+    header img.capa {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    header img.logo {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      max-height: 120px;
+    }
+    h1 {
+      text-align: center;
+      margin: 20px;
+      color: #FFFFFF;
+    }
+    form {
+      max-width: 900px;
+      margin: 40px auto;
+      background: #F7F7F4; /* Off White */
+      padding: 40px;
+      border-radius: 8px;
+      color: #0B0B0B;
+      box-sizing: border-box;
+    }
+    h2 {
+      margin-top: 30px;
+      color: #0F1E4D;
+    }
+    label {
+      display: block;
+      margin-top: 15px;
+      font-weight: bold;
+      color: #0B0B0B;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border-radius: 5px;
+      border: 1px solid #E9E9E6;
+      background-color: #FFFFFF;
+      color: #0B0B0B;
+      box-sizing: border-box;
+    }
+    textarea {
+      height: 80px;
+    }
+    .checkbox-group {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 10px;
+    }
+    .checkbox-group label {
+      font-weight: normal;
+      color: #0B0B0B;
+    }
+    .form-footer {
+      text-align: center;
+      margin-top: 30px;
+    }
+    button {
+      padding: 12px 30px;
+      background-color: #0F1E4D;
+      color: #FFFFFF;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-weight: bold;
+      font-size: 16px;
+    }
+    button:hover {
+      background-color: #8A8A8A;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="MANTOO STUDIO_IDV CAPA.svg" alt="Capa Mantoo Studio" class="capa">
+    <img src="MANTOO STUDIO_IDV LOGO.svg" alt="Logo Mantoo Studio" class="logo">
+  </header>
+
+  <h1>Briefing Social Media</h1>
+
+  <form id="briefingForm">
+    <h2>Contato</h2>
+    <label>Nome:<input type="text" name="nome"></label>
+    <label>E-mail:<input type="email" name="email"></label>
+    <label>Telefone:<input type="text" name="telefone"></label>
+    <label>Nome da Empresa:<input type="text" name="empresa"></label>
+
+    <h2>Posicionamento</h2>
+    <label>Como a sua marca se posiciona?<textarea name="posicionamento"></textarea></label>
+    <label>Quem consome a sua marca?<textarea name="consumidores"></textarea></label>
+    <label>Quem é seu público alvo?<textarea name="publico"></textarea></label>
+    <label>Descreva brevemente o(s) seu(s) produto(s):<textarea name="produtos"></textarea></label>
+
+    <h2>Histórico</h2>
+    <label>Como é a comunicação da sua marca/produto?<textarea name="comunicacao"></textarea></label>
+    <label>Como sua marca se relaciona com o mercado?<textarea name="mercado"></textarea></label>
+    <label>Existe alguma campanha veiculada? Qual?<textarea name="campanha"></textarea></label>
+
+    <h2>Objetivo</h2>
+    <label>Qual o objetivo de inserir a sua marca nas mídias sociais?<textarea name="objetivo"></textarea></label>
+    <label>Você espera resolver problemas?<textarea name="problemas"></textarea></label>
+    <label>Você espera vender mais produtos?<textarea name="vendas"></textarea></label>
+
+    <h2>Redes Sociais</h2>
+    <div class="checkbox-group">
+      <label><input type="checkbox" name="redes" value="Facebook"> Facebook</label>
+      <label><input type="checkbox" name="redes" value="Twitter"> Twitter</label>
+      <label><input type="checkbox" name="redes" value="Instagram"> Instagram</label>
+      <label><input type="checkbox" name="redes" value="Google+"> Google+</label>
+      <label><input type="checkbox" name="redes" value="YouTube"> YouTube</label>
+      <label><input type="checkbox" name="redes" value="LinkedIn"> LinkedIn</label>
+      <label><input type="checkbox" name="redes" value="Snapchat"> Snapchat</label>
+      <label><input type="checkbox" name="redes" value="Pinterest"> Pinterest</label>
+      <label><input type="checkbox" name="redes" value="TikTok"> TikTok</label>
+      <label><input type="checkbox" name="redes" value="Outros"> Outros</label>
+    </div>
+
+    <h2>Concorrentes</h2>
+    <label>Seus concorrentes diretos estão nas redes sociais?<textarea name="concorrentes_redes"></textarea></label>
+    <label>Quem são eles?<textarea name="concorrentes"></textarea></label>
+    <label>Como eles se comunicam?<textarea name="concorrentes_comunicacao"></textarea></label>
+    <label>Com que frequência eles publicam?<textarea name="concorrentes_frequencia"></textarea></label>
+
+    <h2>Análise do Meio</h2>
+    <label>O que falam da sua marca/produto?<textarea name="analise_falam"></textarea></label>
+    <label>Onde falam dela?<textarea name="analise_onde"></textarea></label>
+
+    <h2>Público Alvo</h2>
+    <label>Quem são as pessoas que demonstram interesse em sua marca/produto?<textarea name="publico_interesse"></textarea></label>
+    <label>Você tem noção da idade, gênero e região onde moram?<textarea name="publico_dados"></textarea></label>
+    <label>Que tipo de mídia elas consomem atualmente?<textarea name="publico_midia"></textarea></label>
+    <label>O que elas gostam de ouvir, falar e fazer dentro das redes?<textarea name="publico_comportamento"></textarea></label>
+
+    <h2>Tom da Comunicação</h2>
+    <label>Você prefere se comunicar em primeira ou terceira pessoa?<textarea name="tom_pessoa"></textarea></label>
+    <label>Usar gírias e emoticons, ou se pronunciar de modo formal?<textarea name="tom_estilo"></textarea></label>
+    <label>Que tipo de perguntas serão respondidas?<textarea name="tom_perguntas"></textarea></label>
+    <label>Existe um prazo para respondê-las?<textarea name="tom_prazo"></textarea></label>
+    <label>Existe alguma restrição de conteúdo?<textarea name="tom_restricoes"></textarea></label>
+
+    <h2>Frequência</h2>
+    <label>Com que frequência as redes sociais serão atualizadas?<textarea name="frequencia_atualizacao"></textarea></label>
+    <label>Quantas horas estaremos disponíveis por dia?<textarea name="frequencia_horas"></textarea></label>
+    <label>Estaremos disponíveis no final de semana?<textarea name="frequencia_fds"></textarea></label>
+
+    <h2>Demanda Latente</h2>
+    <label>Você gostaria de aproveitar alguma oportunidade latente?<textarea name="demanda_oportunidade"></textarea></label>
+    <label>Existe alguém influente que já conhece e aprova sua marca/produto?<textarea name="demanda_influente"></textarea></label>
+
+    <h2>Métricas</h2>
+    <label>Quais números são interessantes para você?<textarea name="metricas"></textarea></label>
+    <label>Crescimento de seguidores? Interação de seguidores?<textarea name="metricas_interacao"></textarea></label>
+    <label>Relação dos seguidores com as vendas?<textarea name="metricas_vendas"></textarea></label>
+
+    <h2>Estratégias</h2>
+    <label>Pretende utilizar promoções?<textarea name="estrategias_promocoes"></textarea></label>
+    <label>Que tipo de promoção você imagina?<textarea name="estrategias_tipo"></textarea></label>
+    <label>É possível dar presentes para usuários influentes?<textarea name="estrategias_presentes"></textarea></label>
+    <label>Serão usadas respostas automáticas?<textarea name="estrategias_respostas"></textarea></label>
+
+    <div class="form-footer">
+      <button type="submit">Salvar Respostas</button>
+    </div>
+  </form>
+
+  <script>
+    document.getElementById('briefingForm').addEventListener('submit', function(e) {
+      e.preventDefault();
+      const formData = new FormData(this);
+      const data = {};
+      formData.forEach((value, key) => {
+        if (data[key]) {
+          if (!Array.isArray(data[key])) {
+            data[key] = [data[key]];
+          }
+          data[key].push(value);
+        } else {
+          data[key] = value;
+        }
+      });
+      localStorage.setItem('briefing_social_media', JSON.stringify(data));
+      alert('Respostas salvas com sucesso!');
+    });
+  </script>
+</body>
+</html>
